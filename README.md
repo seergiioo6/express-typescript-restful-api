@@ -80,7 +80,7 @@ Go to the project dir and start your app with this yarn script.
 yarn start serve
 ```
 
-> This starts a local server using `nodemon` at http://0.0.0.0:3000, .
+> This starts a local server using `nodemon` at http://localhost:3000, .
 
 ### Step 4: Enjoy!
 
