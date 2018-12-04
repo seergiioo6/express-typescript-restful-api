@@ -28,7 +28,7 @@ Our main goal is to build a WEB API based on the information provided by these 2
 - [Further Documentations](#-further-documentation)
 
 
-## ❯ Getting Started
+## Getting Started
 
 ### Step 1: Set up the Development Environment
 
@@ -78,6 +78,13 @@ yarn start serve
 
 > This starts a local server using `nodemon` at http://0.0.0.0:3000, .
 
+### Step 4: Enjoy!
+
+Go to /swagger and try out this awesome API. Because the users do not have a password set, **the password** of each one is **the name of the user**.
+For example: for logging in with the (admin) user Manning. 
+- Username: Manning
+- Password: Manning
+
 
 ## Scripts and Tasks
 
@@ -105,7 +112,7 @@ All script are defined in the `package-scripts.js` file, but the most important 
 ## API Routes
 
 The route prefix is `/api` by default, but you can change this in the .env file.
-The swagger route can be modified in the `.env` file.
+The swagger route along with swagger credentials can be modified in the `.env` file.
 
 | Route          | Description |
 | -------------- | ----------- |
