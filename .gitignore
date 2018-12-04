@@ -26,6 +26,7 @@ tsconfig.build.json
 
 # IDE #
 .idea/
+.vscode/
 *.swp
 .awcache
 
