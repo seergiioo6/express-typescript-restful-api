@@ -28,7 +28,7 @@ Our main goal is to build a WEB API based on the information provided by these 2
 - [Further Documentations](#-further-documentation)
 
 
-## Getting Started
+## ❯ Getting Started
 
 ### Step 1: Set up the Development Environment
 
