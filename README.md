@@ -35,18 +35,21 @@ Our main goal is to build a WEB API based on the information provided by these 2
 
 You need to set up your development environment before you can do anything.
 
-Install [Node.js and NPM](https://nodejs.org/en/download/)
+Install [Node.js and NPM](https://nodejs.org/en/download/).
+
 Install yarn globally
 
 ```bash
-yarn install yarn -g
+npm install yarn -g
 ```
 Install a MySQL database.
 
 ### Step 2: Set up the project
 
 Fork or download this project.
-Then rename the env.example file to .env and edit this file with your database connection information.
+
+Rename the env.example file to .env and edit this file with your database connection information.
+
 Create a new database with the name provided in your .env file.
 
 ```bash
@@ -81,7 +84,7 @@ yarn start serve
 
 ### Step 4: Enjoy!
 
-Go to /swagger and try out this awesome API. Because the users do not have a password set, **the password** of each one is **the name of the user**.
+Go to http://localhost:3000/swagger and try out this awesome API. Because the users do not have a password set, **the password** of each one is **the name of the user**.
 For example: for logging in with the (admin) user Manning. 
 - Username: Manning
 - Password: Manning
