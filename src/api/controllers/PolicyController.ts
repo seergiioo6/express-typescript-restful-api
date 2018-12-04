@@ -28,7 +28,6 @@ export class PolicyController {
 
     @Post()
     public create(@Body() policy: Policy): Promise<Policy> {
-        console.log(JSON.stringify(policy));
         return this.policyService.create(policy);
     }
 
