@@ -23,6 +23,7 @@ Our main goal is to build a WEB API based on the information provided by these 2
 ## Table of Contents
 
 - [Getting Started](#-getting-started)
+- [Scripts and Tasks](#-scripts-and-tasks)
 - [API Routes](#-api-routes)
 - [Project Structure](#-project-structure)
 - [Further Documentations](#-further-documentation)
@@ -86,7 +87,7 @@ For example: for logging in with the (admin) user Manning.
 - Password: Manning
 
 
-## Scripts and Tasks
+## Scripts and tasks
 
 All script are defined in the `package-scripts.js` file, but the most important ones are listed here.
 
@@ -101,13 +102,18 @@ All script are defined in the `package-scripts.js` file, but the most important 
 
 ### Tests
 
-- Run the unit tests using `yarn start test` (There is also a vscode task for this called `test`).
+- Run the unit tests using `yarn start test`.
 - Run the e2e tests using `yarn start test.e2e`.
 
 ### Building the project and running it
 
 - Run `yarn start build` 
 - To start the built app use `yarn start`.
+
+### Checking licenses
+
+- Run `yarn licenses list` 
+> Running this command will list, all of the packages that were installed by yarn or yarn install, and give you the license associated with each package
 
 ## API Routes
 
